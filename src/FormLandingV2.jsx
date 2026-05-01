@@ -119,7 +119,7 @@ export default function FormLanding() {
             <em style={{ fontStyle: "italic", fontWeight: "400", color: "#3d4a5c" }}>should be.</em>
           </h1>
           <p style={{ fontSize: "17px", color: "#5a6472", maxWidth: "440px", lineHeight: "1.75", marginBottom: "48px" }}>
-            FORM builds clean, simple, and purposeful software, SaaS solutions, & websites. Products that work the way they're supposed to — nothing more, nothing less.
+            FORM builds clean, simple, and purposeful software. Products that work the way they're supposed to — nothing more, nothing less.
           </p>
           <a href="#work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", fontSize: "13px", letterSpacing: ".06em", textTransform: "uppercase", color: "#0a0a0a", textDecoration: "none", borderBottom: "1px solid #0a0a0a", paddingBottom: "4px" }}>
             See our work &nbsp;→
