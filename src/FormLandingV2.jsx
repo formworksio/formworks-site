@@ -133,12 +133,13 @@ export default function FormLanding() {
       <section style={{ padding: "80px 48px" }} id="work">
         <div style={{ fontSize: "11px", letterSpacing: ".14em", textTransform: "uppercase", color: "#7a8394", marginBottom: "48px" }}>Products</div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "2px", background: "#dde1e7" }}>
-          <a href="https://chapteriq.io" target="_blank" rel="noopener noreferrer" style={{ display: "block", background: "#0d1117", padding: "48px", textDecoration: "none", transition: "opacity 0.15s" }} onMouseEnter={e => e.currentTarget.style.opacity = "0.85"} onMouseLeave={e => e.currentTarget.style.opacity = "1"}>
-            <div style={{ fontSize: "11px", letterSpacing: ".1em", textTransform: "uppercase", color: "#4a6a8a", marginBottom: "20px" }}>Live — Beta</div>
-            <div style={{ fontSize: "28px", fontWeight: "500", letterSpacing: "-.02em", color: "#e8eef4", marginBottom: "12px" }}>Chapter IQ</div>
-            <p style={{ fontSize: "14px", lineHeight: "1.75", color: "#6a7f94", marginBottom: "28px" }}>Relocation intelligence for people making a real life move. Research neighborhoods, schools, cost of living, and lifestyle fit — all in one place, personalized to you.</p>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "11px", letterSpacing: ".08em", textTransform: "uppercase", padding: "6px 12px", borderRadius: "2px", background: "#161c24", color: "#4a6a8a" }}>For individuals &amp; realtors <span style={{ fontSize: "13px" }}>↗</span></span>
-          </a>
+          <div style={{ display: "block", background: "#0d1117", padding: "48px" }}>
+            <div style={{ filter: "blur(4px)", opacity: 0.35, userSelect: "none", pointerEvents: "none" }}>
+              <div style={{ fontSize: "28px", fontWeight: "500", letterSpacing: "-.02em", color: "#e8eef4", marginBottom: "12px" }}>Chapter IQ</div>
+              <p style={{ fontSize: "14px", lineHeight: "1.75", color: "#6a7f94", marginBottom: "28px" }}>Relocation intelligence for people making a real life move. Research neighborhoods, schools, cost of living, and lifestyle fit — all in one place, personalized to you.</p>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: "6px", fontSize: "11px", letterSpacing: ".08em", textTransform: "uppercase", padding: "6px 12px", borderRadius: "2px", background: "#161c24", color: "#4a6a8a" }}>For individuals &amp; realtors</span>
+            </div>
+          </div>
           <div style={{ background: "#f7f8fa", padding: "48px" }}>
             <div style={{ fontSize: "11px", letterSpacing: ".1em", textTransform: "uppercase", color: "#7a8394", marginBottom: "20px" }}>Coming soon</div>
             <div style={{ fontSize: "28px", fontWeight: "500", letterSpacing: "-.02em", color: "#0a0a0a", marginBottom: "12px" }}>Next product</div>
